@@ -35,8 +35,8 @@ The focus is on **building practical, lightweight, and effective safety mechanis
 
 **Goal:** Identify and control neuron-level safety circuits inside LLMs for both attacks and defenses.
 ![Training (3).jpg](safety_neurons%2FTraining%20%283%29.jpg)
-**Highlights**
-![Flow.drawio.png](safety_neurons%2FFlow.drawio.png)
+**Highlights**  
+<img src="safety_neurons/Flow.drawio.png" width="360" alt="Flow.drawio">  
 - Built tools to **project MLP activations into vocabulary space**, exposing interpretable “safety neurons.”
 - Implemented **causal neuron calibration**, altering less than **0.3% of parameters** to reliably flip refusal/compliance behavior.
 - Developed **SafeTuning**, a fine-tuning method that selectively strengthens refusal behavior using neuron-level insights.
