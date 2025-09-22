@@ -8,6 +8,7 @@ The focus is on **building practical, lightweight, and effective safety mechanis
 ## 🚀 Projects
 
 ### 1. [Early Exit Generation Defense](https://arxiv.org/pdf/2408.11308)
+![EGO.drawio.png](eeg_defender%2FEGO.drawio.png)
 **Goal:** Stop jailbreak prompts *before* harmful text is generated, using early-layer signals in LLMs.
 
 **Highlights**
@@ -31,9 +32,11 @@ The focus is on **building practical, lightweight, and effective safety mechanis
 ---
 
 ### 2. [Safety Knowledge Neurons & SafeTuning](https://arxiv.org/pdf/2509.01631)
-**Goal:** Identify and control neuron-level safety circuits inside LLMs for both attacks and defenses.
 
+**Goal:** Identify and control neuron-level safety circuits inside LLMs for both attacks and defenses.
+![Training (3).jpg](safety_neurons%2FTraining%20%283%29.jpg)
 **Highlights**
+![Flow.drawio.png](safety_neurons%2FFlow.drawio.png)
 - Built tools to **project MLP activations into vocabulary space**, exposing interpretable “safety neurons.”
 - Implemented **causal neuron calibration**, altering less than **0.3% of parameters** to reliably flip refusal/compliance behavior.
 - Developed **SafeTuning**, a fine-tuning method that selectively strengthens refusal behavior using neuron-level insights.
