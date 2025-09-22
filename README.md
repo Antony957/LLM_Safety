@@ -1,4 +1,4 @@
-# Large Language Model Safety Engineering
+# Large Language Model Safety
 
 This repository contains the engineering implementations behind my two research works on defending Large Language Models (LLMs) against jailbreak attacks.  
 The focus is on **building practical, lightweight, and effective safety mechanisms** that can be directly integrated into real-world inference pipelines.
